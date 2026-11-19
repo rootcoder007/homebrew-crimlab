@@ -6,10 +6,10 @@
 # sets url and sha256 for each published release; `brew install --HEAD`
 # builds main.
 class Crimlab < Formula
-  desc "Criminology and sociolegal statistics from the command-line"
+  desc "Statistical toolkit for criminology and sociolegal research"
   homepage "https://github.com/rootcoder007/crimlab"
-  url "https://github.com/rootcoder007/crimlab/releases/download/v0.0.1/crimlab-0.0.1.tar.gz"
-  sha256 "99a253079a1e20ea3deab7aaa0e52dd7c822d1948171dbcebbbcaef251e8dda1"
+  url "https://github.com/rootcoder007/crimlab/releases/download/v0.0.2/crimlab-0.0.2.tar.gz"
+  sha256 "1fa16331de2d4beb64e94c01bfcc0a6097eb78c85a9d5eaa99076a880c2722c4"
   license "Apache-2.0" => { with: "LLVM-exception" }
   head "https://github.com/rootcoder007/crimlab.git", branch: "main"
 
