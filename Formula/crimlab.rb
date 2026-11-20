@@ -7,9 +7,9 @@
 # builds main.
 class Crimlab < Formula
   desc "Statistical toolkit for criminology and sociolegal research"
-  homepage "https://github.com/rootcoder007/crimlab"
-  url "https://github.com/rootcoder007/crimlab/releases/download/v0.0.2/crimlab-0.0.2.tar.gz"
-  sha256 "1fa16331de2d4beb64e94c01bfcc0a6097eb78c85a9d5eaa99076a880c2722c4"
+  homepage "https://crimlab.dev/"
+  url "https://github.com/rootcoder007/crimlab/releases/download/v0.0.3/crimlab-0.0.3.tar.gz"
+  sha256 "0aeb53b4d01460daf55771a916fcd25f5711c8b19421aca2fa14f07d3fd99bdc"
   license "Apache-2.0" => { with: "LLVM-exception" }
   head "https://github.com/rootcoder007/crimlab.git", branch: "main"
 
